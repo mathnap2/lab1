@@ -7,6 +7,9 @@ instance_type = "t2.micro"
 # Or set explicitly, e.g. "203.0.113.4/32" or "0.0.0.0/0".
 ssh_ingress_cidr = ""
 
+student_id    = "745671"
+student_email = "mathias.napoles2@gmail.com"
+
 # Route 53 hosted zone created by Terraform (not delegated in Learner Lab).
 dns_zone_name   = "dse-lab1-745671.com"
 dns_record_name = "www"

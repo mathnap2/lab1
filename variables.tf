@@ -44,6 +44,18 @@ variable "ssh_ingress_cidr" {
   default     = ""
 }
 
+variable "student_id" {
+  description = "Student ID, applied as a tag so it is visible in the AWS console."
+  type        = string
+  default     = "745671"
+}
+
+variable "student_email" {
+  description = "Student email, applied as a tag so it is visible in the AWS console."
+  type        = string
+  default     = "mathias.napoles2@gmail.com"
+}
+
 variable "dns_zone_name" {
   description = <<-EOT
     Domain name for the Route 53 public hosted zone created by this config

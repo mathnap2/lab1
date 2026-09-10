@@ -53,7 +53,7 @@ variable "student_id" {
 variable "student_email" {
   description = "Student email, applied as a tag so it is visible in the AWS console."
   type        = string
-  default     = "mathias.napoles2@gmail.com"
+  default     = "mathias.napoles@iteso.mx"
 }
 
 variable "dns_zone_name" {
